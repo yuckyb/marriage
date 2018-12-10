@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <!--第一屏开始-->
+      <div class="swiper-slide one">
+        <div class="top ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+          <img src="img/one.jpg" alt="" class="oneImg">
+        </div>
+        <div class="center">
+          <img src="img/jiezhi.png" alt="" class="Ring ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+          <img src="img/womenjiehunla.png" alt="" class="marry ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+        </div>
+        <div class="bottom">
+          <span class="p ani" swiper-animate-effect="fadeInLeftBig" swiper-animate-duration="1s" swiper-animate-delay="3.5s">2017.12.07</span>
+        </div>
+      </div>
+      <!--第一屏结束-->
+      <!--第二屏开始-->
+      <div class="swiper-slide two">
+        <div class="top ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1s">
+          <img src="img/two_top.jpg" alt="">
+        </div>
+        <div class="center ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="3s">
+          <img src="img/two_center.jpg" alt="">
+        </div>
+        <div class="bottom ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="2s">
+          <img src="img/two_bottom.jpg" alt="">
+        </div>
+      </div>
+      <!--第二屏结束-->
+      <!--第三屏开始-->
+      <div class="swiper-slide three">
+        <div class="top">
+          <img src="img/1.png" alt="" class="threeImg1 ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1s" swiper-animate-delay="1s">
+          <img src="img/2.png" alt="" class="threeImg2 ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1s" swiper-animate-delay="2s">
+        </div>
+      </div>
+      <!--第三屏结束-->
+      <!--第四屏开始-->
+      <div class="swiper-slide four">
+        <div class="center">
+          <p class="centerP1 ani" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="1s" swiper-animate-delay="1s">
+            <span>李小璐</span>
+            <span>&</span>
+            <span>贾乃亮</span>
+          </p>
+          <p class="centerP2 ani" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="1s" swiper-animate-delay="2s">
+            <span>浪漫婚礼主题为“照亮心里的璐”</span>
+          </p>
+          <p class="centerP3 ani" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="1s" swiper-animate-delay="3s">
+            <span>2012年3月31日两人共结连理</span>
+          </p>
+        </div>
+      </div>
+      <!--第四屏结束-->
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-next"></div>
+  </div>
+  <!--音乐开始-->
+  <div id="music">
+    <img src="img/music.gif" alt="" class="musicbg">
+    <img src="img/music_off.png" alt="" class="musicImg">
+    <audio src="img/bgmusic.mp3" autoplay loop></audio>
+  </div>
+  <!--音乐结束-->
+  <!--swiper js-->
+  <script src="js/swiper.min.js"></script>\
+  <script src="js/swiper.animate1.0.2.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

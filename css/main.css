@@ -1,0 +1,223 @@
+/*Demo styles*/
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-button-next{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    top:auto;
+    transform: rotateZ(90deg);
+    animation:run 1s linear infinite;
+    z-index: 99;
+}
+@keyframes run {
+    from{
+        bottom:1%;
+        opacity:1;
+    }
+    to{
+        bottom: 5%;
+        opacity: 0;
+    }
+}
+
+/*音乐部分开始*/
+#music {
+    width: 60px;
+    height: 60px;
+    /*border:2px solid #000;*/
+    position: fixed;
+    right: 5%;
+    top: 5%;
+   /* background: black;*/
+    z-index: 9;
+}
+.musicbg {
+    width: 60px;
+    height: 60px;
+}
+.musicImg {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 44px;
+    height: 44px;
+    animation: music 2s linear infinite;
+}
+@keyframes music {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+/*第一屏开始*/
+.swiper-slide.one{
+    background: url("../img/onebg.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+.swiper-slide.one .top{
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    top: 10%;
+    border:10px solid #fff;
+    overflow: hidden;
+}
+.swiper-slide.one .top img{
+    width: 100%;
+}
+.swiper-slide.one .center{
+    width: 70%;
+    height: 20%;
+    position: relative;
+    top: 24%;
+    margin: 0 auto;
+}
+.swiper-slide.one .center .Ring{
+    width: 30%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.swiper-slide.one .center .marry{
+    width: 100%;
+    position: absolute;
+    top:10%;
+    left:0;
+}
+.swiper-slide.one .bottom{
+    width: 70%;
+    height: 8%;
+    position: absolute;
+    font-size: 10vw;
+    color:#fff;
+    top:88%
+}
+.swiper-slide.one .bottom span{
+    position: absolute;
+    left:18%;
+
+}
+/*第一屏结束*/
+/*第二屏开始*/
+.swiper-slide.two{
+    background: url("../img/twobg.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+.swiper-slide.two img{
+    width: 100%;;
+
+}
+.swiper-slide.two .top{
+    width: 40%;
+    height: 25%;
+    position: absolute;
+    top:10%;
+    left:10%;
+    border:8px solid #fff;
+    overflow:hidden;
+    z-index: 1;
+}
+.swiper-slide.two .center{
+    width: 65%;
+    height: 30%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    overflow:hidden;
+    border:8px solid #fff;
+    z-index: 2;
+}
+.swiper-slide.two .bottom{
+    width: 40%;
+    height: 25%;
+    position: absolute;
+    bottom:10%;
+    right:10%;
+    border:8px solid #fff;
+    overflow:hidden;
+    z-index: 1;
+}
+/*第二屏结束*/
+/*第三屏开始*/
+.swiper-slide.three{
+    background: url("../img/three.jpg");
+    background-size:100% 100%;
+    position: relative;
+}
+.swiper-slide.three img{
+    width: 100%;
+}
+.swiper-slide.three .top .threeImg1{
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+.swiper-slide.three .top .threeImg2{
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+/*第三屏结束*/
+/*第四屏开始*/
+.swiper-slide.four{
+    background: url("../img/fourbg.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+.swiper-slide.four .center{
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    top:50%;
+    font-size:5vw;
+}
+.swiper-slide.four .center .centerP1,
+.swiper-slide.four .center .centerP2{
+    color: #834c20;
+    height: 8%;
+}
+.swiper-slide.four .center .centerP3{
+    color: #834c20;
+    height: 8%;
+}
+/*第四屏结束*/
