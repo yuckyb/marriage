@@ -59,11 +59,9 @@ body {
 #music {
     width: 60px;
     height: 60px;
-    /*border:2px solid #000;*/
     position: fixed;
     right: 5%;
     top: 5%;
-   /* background: black;*/
     z-index: 9;
 }
 .musicbg {
@@ -88,7 +86,7 @@ body {
 }
 /*第一屏开始*/
 .swiper-slide.one{
-    background: url("../img/onebg.jpg");
+    background: url("../img/one.jpg");
     background-size: 100% 100%;
     position: relative;
 }
@@ -138,7 +136,7 @@ body {
 /*第一屏结束*/
 /*第二屏开始*/
 .swiper-slide.two{
-    background: url("../img/twobg.jpg");
+    background: url("../img/one.jpg");
     background-size: 100% 100%;
     position: relative;
 }
@@ -180,7 +178,7 @@ body {
 /*第二屏结束*/
 /*第三屏开始*/
 .swiper-slide.three{
-    background: url("../img/three.jpg");
+    background: url("../img/one.jpg");
     background-size:100% 100%;
     position: relative;
 }
@@ -200,7 +198,7 @@ body {
 /*第三屏结束*/
 /*第四屏开始*/
 .swiper-slide.four{
-    background: url("../img/fourbg.jpg");
+    background: url("../img/one.jpg");
     background-size: 100% 100%;
     position: relative;
 }
