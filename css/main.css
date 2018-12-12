@@ -86,7 +86,7 @@ body {
 }
 /*第一屏开始*/
 .swiper-slide.one{
-    background: url("../img/one.png");
+    background: url("../img/onebg.jpg");
     background-size: 100% 100%;
     position: relative;
 }
@@ -178,7 +178,7 @@ body {
 /*第二屏结束*/
 /*第三屏开始*/
 .swiper-slide.three{
-    background: url("../img/one.jpg");
+    background: url("../img/threebg.jpg");
     background-size:100% 100%;
     position: relative;
 }
@@ -198,7 +198,7 @@ body {
 /*第三屏结束*/
 /*第四屏开始*/
 .swiper-slide.four{
-    background: url("../img/one.jpg");
+    background: url("../img/fourbg.jpg");
     background-size: 100% 100%;
     position: relative;
 }
