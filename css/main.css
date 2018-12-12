@@ -86,7 +86,7 @@ body {
 }
 /*第一屏开始*/
 .swiper-slide.one{
-    background: url("../img/one.jpg");
+    background: url("../img/one.png");
     background-size: 100% 100%;
     position: relative;
 }
@@ -136,7 +136,7 @@ body {
 /*第一屏结束*/
 /*第二屏开始*/
 .swiper-slide.two{
-    background: url("../img/one.jpg");
+    background: url("../img/twobg.png");
     background-size: 100% 100%;
     position: relative;
 }
