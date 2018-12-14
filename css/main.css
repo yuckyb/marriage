@@ -86,7 +86,7 @@ body {
 }
 /*第一屏开始*/
 .swiper-slide.one{
-    background: url("../img/onebg.png");
+    background: url("../img/one.jpg");
     background-size: 100% 100%;
     position: relative;
 }
