@@ -81,12 +81,18 @@
       <source src="ogg/music.ogg" type="audio/ogg" />
   </audio> -->
 
-    <audio src="./img/cover.mp3" autoplay loop></audio>
+    <audio src="./img/cover.mp3" autoplay loop id="audio"></audio>
   </div>
   <!--音乐结束-->
   <!--swiper js-->
   <script src="js/swiper.min.js"></script>
   <script src="js/swiper.animate1.0.2.min.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    var audio = document.getElementById('audio'); 
+      window.onload=function(){ 
+      audio.play(); 
+      } 
+  </script>
 </body>
 </html>
