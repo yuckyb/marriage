@@ -91,11 +91,9 @@ body {
     position: relative;
 }
 .swiper-slide.one .top{
-    width: 70%;
-    height: 50%;
+    width: 90%;
     position: absolute;
     top: 10%;
-    border:10px solid #fff;
     overflow: hidden;
 }
 .swiper-slide.one .top img{
@@ -182,40 +180,44 @@ body {
     background-size:100% 100%;
     position: relative;
 }
-.swiper-slide.three img{
-    width: 100%;
-}
+.swiper-slide.three .top {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 5vw;
+ }
 .swiper-slide.three .top .threeImg1{
-    position: absolute;
-    top: 20%;
-    left: 0;
+   display: inline-block;
+   width: 30px;
 }
-.swiper-slide.three .top .threeImg2{
-    position: absolute;
-    top: 30%;
-    left: 0;
-}
+
 /*第三屏结束*/
 /*第四屏开始*/
 .swiper-slide.four{
     background: url("../img/fourbg.png");
     background-size: 100% 100%;
     position: relative;
+    color: #fff;
 }
 .swiper-slide.four .center{
-    width: 80%;
-    height: 20%;
+    width: 70%;
     position: absolute;
-    top:50%;
-    font-size:5vw;
+    top:15%;
+    height: 50%;
+    font-size:6vw;
+    display: flex;
+    align-items:stretch;  
 }
 .swiper-slide.four .center .centerP1,
 .swiper-slide.four .center .centerP2{
-    color: #834c20;
     height: 8%;
 }
 .swiper-slide.four .center .centerP3{
-    color: #834c20;
-    height: 8%;
+    height: 100%;
+    width: 25%;
+    font-size:4vw;
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    margin-right: 0;
 }
 /*第四屏结束*/
