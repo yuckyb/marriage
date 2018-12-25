@@ -166,19 +166,20 @@ body {
     z-index: 1;
 }
 .swiper-slide.two .center{
-    width: 45%;
-    height: 30%;
+    width: 50%;
+    height: 33%;
     position: absolute;
     top:55%;
     left:50%;
     transform: translate(-50%,-50%);
+    border:5px solid #fff;
     overflow:hidden;
     z-index: 2;
     
 }
 .swiper-slide.two .bottom{
     width: 40%;
-    height: 25%;
+    height: 33%;
     position: absolute;
     bottom:10%;
     right:10%;
@@ -216,6 +217,7 @@ body {
     top: 55%;
     right: 10%;
  }
+
  .swiper-slide.three .content img{
     width: 250px;
     height: 200px;
