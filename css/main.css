@@ -93,11 +93,12 @@ body {
 .swiper-slide.one .top{
     width: 90%;
     position: absolute;
-    top: 10%;
+    bottom: 10%;
     overflow: hidden;
 }
 .swiper-slide.one .top img{
-    width: 100%;
+    width: 300px;
+    height: 300px;
 }
 .swiper-slide.one .center{
     width: 70%;
@@ -143,25 +144,25 @@ body {
 
 }
 .swiper-slide.two .top{
-    width: 40%;
-    height: 25%;
+    width: 50%;
+    height: 30%;
     position: absolute;
     top:10%;
     left:10%;
-    border:8px solid #fff;
+    border:5px solid #fff;
     overflow:hidden;
     z-index: 1;
 }
 .swiper-slide.two .center{
-    width: 65%;
+    width: 45%;
     height: 30%;
     position: absolute;
-    top:50%;
+    top:55%;
     left:50%;
     transform: translate(-50%,-50%);
     overflow:hidden;
-    border:8px solid #fff;
     z-index: 2;
+    
 }
 .swiper-slide.two .bottom{
     width: 40%;
@@ -169,7 +170,7 @@ body {
     position: absolute;
     bottom:10%;
     right:10%;
-    border:8px solid #fff;
+    border:5px solid #fff;
     overflow:hidden;
     z-index: 1;
 }
@@ -180,17 +181,33 @@ body {
     background-size:100% 100%;
     position: relative;
 }
+.threeImg1{
+    color: #fff;
+    position: absolute;
+    top: 8%;
+
+}
+.swiper-slide.three img{
+    border: 5px solid #fff
+}
 .swiper-slide.three .top {
     position: absolute;
-    top: 25%;
-    left: 20%;
-    font-size: 5vw;
+    top: 15%;
+    left: 10%;
  }
-.swiper-slide.three .top .threeImg1{
-   display: inline-block;
-   width: 30px;
-}
-
+.swiper-slide.three .top img{
+    width: 250px;
+    height: 200px;
+ }
+ .swiper-slide.three .content {
+    position: absolute;
+    top: 55%;
+    right: 10%;
+ }
+ .swiper-slide.three .content img{
+    width: 250px;
+    height: 200px;
+ }
 /*第三屏结束*/
 /*第四屏开始*/
 .swiper-slide.four{
