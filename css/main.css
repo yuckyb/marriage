@@ -103,14 +103,17 @@ body {
     color: #fff;
 }
 .swiper-slide.one .top{
-    width: 90%;
+    width: 60%;
+    height: 200px;
     position: absolute;
     bottom: 10%;
     overflow: hidden;
+    border: 5px solid #fff;
+
 }
 .swiper-slide.one .top img{
-    width: 300px;
-    height: 300px;
+    width: auto;
+    height: 200px;
 }
 .swiper-slide.one .center{
     width: 70%;
