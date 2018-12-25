@@ -103,50 +103,20 @@ body {
     color: #fff;
 }
 .swiper-slide.one .top{
-    width: 60%;
+    width: auto;
     height: 200px;
     position: absolute;
+    left: 20%;
+    right: 20%;
     bottom: 10%;
     overflow: hidden;
     border: 5px solid #fff;
-
 }
 .swiper-slide.one .top img{
-    width: auto;
+    width: 100%;
     height: 200px;
 }
-.swiper-slide.one .center{
-    width: 70%;
-    height: 20%;
-    position: relative;
-    top: 24%;
-    margin: 0 auto;
-}
-.swiper-slide.one .center .Ring{
-    width: 30%;
-    position: absolute;
-    left:0;
-    top:0;
-}
-.swiper-slide.one .center .marry{
-    width: 100%;
-    position: absolute;
-    top:10%;
-    left:0;
-}
-.swiper-slide.one .bottom{
-    width: 70%;
-    height: 8%;
-    position: absolute;
-    font-size: 10vw;
-    color:#fff;
-    top:88%
-}
-.swiper-slide.one .bottom span{
-    position: absolute;
-    left:18%;
 
-}
 /*第一屏结束*/
 /*第二屏开始*/
 .swiper-slide.two{
